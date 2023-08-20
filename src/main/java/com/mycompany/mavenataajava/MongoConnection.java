@@ -38,7 +38,7 @@ public class MongoConnection {
            // Create a new document (record) with the desired fields based on your schema
             Document flightDocument = new Document("aircraftowner", "Military")
 		.append("aircraft", "F16")
-                .append("runway", "31L")
+                .append("runway", "31R")
                 .append("operation", "Takeoff")
                 .append("approach", "")
                 .append("departure", "VFR")
